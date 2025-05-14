@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+body {
+font-family: 'Montserrat', sans-serif !important;
+}
+
+/*
+@font-face {
+    font-family: Calli;
+    src: url('../fonts/Calligraffitti/Calligraffitti-Regular.ttf');
+}
+*/
+
+
+.btndesign 
+{
+    background: #578fff !important; 
+    color: white !important;
+}
+
+
+.heading {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.home {
+    margin-left: 71px;
+}
+
+.navbar-header.logo {
+    margin-top: 30px;
+}
+
+
+a:hover {
+    color: #00a82d;
+}
+
+
+
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+}
+
+.log-btn {
+    margin-right: 50px;
+    margin-left: 20px;
+    width: 121px;
+    border: solid green 2px;
+    color: blue;
+}
+
+.font {
+    
+    display: block;
+    font-size: 56px;
+    line-height: 72px;
+    color: blue;
+}
+
+.description {
+    
+    font-size: 20px;
+    line-height: 40px;
+    margin-bottom: 35px;
+    color: black;
+    font-weight: 20;
+}
+
+.arrange-content {
+    padding-top: 50px;
+}
+
+.left-pad {
+    padding-left: 65px;
+}
+
+.laptop {
+    width: 91.7%;
+}
+
+.image {
+    display: inline-block;
+}
+
+.design {
+    width: 242px;
+    height: 57px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    background: blue;
+    color: white;
+}
+.design:hover{
+    background: darkblue;
+    color: white;
+
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    .font {
+        font-family: 'Lato', sans-serif;
+        display: block;
+        font-size: 25px;
+        line-height: 36px;
+        color: white;
+    }
+    .laptop {
+        display: none;
+    }
+}
